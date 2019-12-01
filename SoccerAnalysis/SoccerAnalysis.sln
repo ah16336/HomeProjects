@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "SoccerAnalysis", "SoccerAnalysis\SoccerAnalysis.pyproj", "{824A45C5-4548-4077-9944-F6C43E12D1D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{824A45C5-4548-4077-9944-F6C43E12D1D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{824A45C5-4548-4077-9944-F6C43E12D1D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A277DB1-F562-497E-A88E-7B07BE2FAAEA}
+	EndGlobalSection
+EndGlobal
