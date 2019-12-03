@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ClusteringTest", "ClusteringTest\ClusteringTest.pyproj", "{EE2539E6-AA2B-4668-83FD-28E8BF10C451}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE2539E6-AA2B-4668-83FD-28E8BF10C451}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE2539E6-AA2B-4668-83FD-28E8BF10C451}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA23BF30-2635-4632-8C22-6883BF6FB8E5}
+	EndGlobalSection
+EndGlobal
