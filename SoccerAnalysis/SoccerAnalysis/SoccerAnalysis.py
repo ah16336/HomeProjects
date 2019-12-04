@@ -2,7 +2,6 @@ from matplotlib import pyplot as plt
 import pandas as pd
 
 year = pd.read_csv("birthyear.csv")
-random = pd.read_csv("random_teams.csv")
 
 x_years = list(range(1967, 2000))
 y_values = list(year.overall_score)
@@ -16,6 +15,7 @@ ax1.set_ylabel("Overall Score", fontname='Segoe UI', fontsize=14)
 
 #plt.savefig('birthyear.png')
 
+random = pd.read_csv("random_teams.csv")
 
 home_goal = list(random.Home_goal_diff)
 away_goal = list(random.Away_goal_diff)
@@ -38,3 +38,16 @@ plt.legend()
 
 plt.subplots_adjust(hspace=0.25)
 plt.show()  
+
+plt.close('all')
+count = pd.read_csv("birthday_count.csv")
+
+y_count = list(count.Count)
+
+plt.figure(figsize = (20, 20))
+ax2 = plt.subplot()
+plt.bar(x_years, y_count, color='RoyalBlue')
+ax2.set_xlabel("Birth Year", fontname='Segoe UI', fontsize=14)
+ax2.set_ylabel("Count of Players", fontname='Segoe UI', fontsize=14)
+ax2.set_title("Count of footballers born between 1967 and 1997", fontname='Segoe UI', fontsize=18)
+plt.show()
