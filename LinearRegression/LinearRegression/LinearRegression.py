@@ -42,10 +42,14 @@ print('Parameters: ', results.params) # gives an easier way to see equation coef
 
 #displaying results
 
-fig = plt.figure()
-ax = plt.axes()
-plt.plot(x, x*0.4158 - 0.3631, linestyle='dashed')
-plt.scatter(iris['petal_length'], iris['petal_width'])
+#fig = plt.figure()
+#ax = plt.axes()
+plt.plot(x, x*0.4158 - 0.3631, linestyle='dashed', color='PaleVioletRed', label='OLS Prediction')
+plt.scatter(iris['petal_length'], iris['petal_width'], color='MediumAquaMarine', label='Actual Data')
+plt.xlabel("Petal Length")
+plt.ylabel("Petal Width")
+plt.title("Petal Dimension Chart")
+plt.legend()
 plt.show()
 
 print("\n")
