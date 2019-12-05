@@ -9,6 +9,8 @@ sns.lmplot('petal_length', 'petal_width', df, hue='species')
 plt.title("Petal width and petal length of plants, grouped by species")
 plt.show()
 
+# CLUSTERING PETALS TO PREDICT SPECIES #
+
 np.random.seed(7)
 k = 3 # Number of Clusters
 # centroids[i] = [x, y]
@@ -48,7 +50,7 @@ def update(k): # function for updating centres, use this in iteration stage.
 
 centroids = update(centroids)
 
-# Now we use the assignment function again to regroup the data points and recolour them. Then we use the update function to find new centre points.'
+# Now we use the assignment function again to regroup the data points and recolour them. Then we use the update function to find new centre points.
 # Repeat this until the old and new centre points and have a small enough amount of change.
 
 ## Repeat Assigment Stage
@@ -63,6 +65,8 @@ while True:
     if closest_centroids.equals(df['closest']):
         break
 
+#Final clusters: 
+
 fig = plt.figure(figsize=(5, 5))
 plt.scatter(df['petal_length'], df['petal_width'], color=df['color'], alpha=0.5, edgecolor='k')
 for i in centroids.keys():
@@ -70,4 +74,7 @@ for i in centroids.keys():
 plt.xlim(0, 8)
 plt.ylim(0, 3)
 plt.title("Flowers clustered using K Means")
+plt.xlabel("Petal Length")
+plt.ylabel("Petal Width")
 plt.show()
+
