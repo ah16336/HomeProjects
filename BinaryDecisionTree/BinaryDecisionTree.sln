@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "BinaryDecisionTree", "BinaryDecisionTree\BinaryDecisionTree.pyproj", "{909514DC-F59C-4F00-AF81-8D8C2D4485A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{909514DC-F59C-4F00-AF81-8D8C2D4485A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{909514DC-F59C-4F00-AF81-8D8C2D4485A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F940B02C-FB25-449A-A80E-EB1E14C4F0B9}
+	EndGlobalSection
+EndGlobal
